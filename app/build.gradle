@@ -85,8 +85,10 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-rxjava3:$room_version"
 
-//    implementation 'com.daimajia.androidanimations:library:2.4@aar'
-//    implementation 'com.daimajia.easing:library:2.4@aar'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+
+    implementation 'com.makeramen:roundedimageview:2.3.0'
 
     //event bus
     implementation 'org.greenrobot:eventbus:3.3.1'
